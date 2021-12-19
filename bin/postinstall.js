@@ -15,6 +15,7 @@
 */
 "use strict";
 
+    process.exit(0);
 
 
 const fs = require("fs");
