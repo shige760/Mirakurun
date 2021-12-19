@@ -15,9 +15,7 @@
 */
 "use strict";
 
-if (process.env["npm_config_global"] !== undefined && process.env["npm_config_global"] !== "true") {
-    process.exit(0);
-}
+
 
 const fs = require("fs");
 const path = require("path");
